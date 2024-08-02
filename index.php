@@ -2,21 +2,21 @@
 
     // echo" i love pizza<br>";
     // echo "its realy good for the taste";
-    $name = "mhmd issa";
-    $food = "pizza";
-    $email = "fake123@gmail.com";
+    // $name = "mhmd issa";
+    // $food = "pizza";
+    // $email = "fake123@gmail.com";
 
-    $age = 22 ;
-    $users = 2 ; 
-    $quantity = 3 ; 
+    // $age = 22 ;
+    // $users = 2 ; 
+    // $quantity = 3 ; 
 
-    $gpa = 2.5 ; 
-    $price = 4.99 ; 
-    $taxrate = 0.08 ; 
+    // $gpa = 2.5 ; 
+    // $price = 4.99 ; 
+    // $taxrate = 0.08 ; 
 
-    $employed = true ; 
-    $online = false ; 
-    $for_sale = true ; 
+    // $employed = true ; 
+    // $online = false ; 
+    // $for_sale = true ; 
 
     // echo "helo {$name} <br>"; 
     // echo "you like  {$food}";
@@ -29,9 +29,24 @@
     // echo " <br> tax rate is {$taxrate} %  ";
     // echo "<br> you are {$employed} employed";
 
-    echo "you have ordered {$quantity} and {$food} for sale";
-    $total = $price * $quantity;
-    echo "<br> your total is {$total}"
+    // echo "you have ordered {$quantity} and {$food} for sale";
+    // $total = $price * $quantity;
+    // echo "<br> your total is {$total}"
+    
+    // $x = 10 ; 
+    // $y = 3 ; 
+    // $z =null ; 
+
+    // $z = $x + $y ; 
+    // echo "{$z}"
+
+
+    // $counter  = 0 ; 
+    // $counter   = $counter += 2 ; 
+
+    // echo "counter is {$counter} <br>";
+
+    
 
 
 
