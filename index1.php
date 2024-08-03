@@ -13,6 +13,17 @@
 
 
     </form> -->
+    <form action ="index1.php" method="post" >
+        username : <br>
+        <input type="text" name="username"><br>
+        AGE : <br>
+        <input type="text" name="AGE"><br>
+        EMAIL : <br>
+        <input type="text" name="EMAIL"><br>
+        <input type="submit" name="login" value="login">
+        
+
+    </form>
 
     
 </body>
@@ -68,6 +79,26 @@
 // }
 
 // echo "your weekly pay is\$ {$weekly_pay}";
+
+
+// if( isset($_POST["login"])){
+//     $username = filter_input(INPUT_POST , "username" ,FILTER_SANITIZE_SPECIAL_CHARS);
+//     $AGE =filter_input(INPUT_POST , "AGE",FILTER_SANITIZE_NUMBER_INT);
+//     $EMAIL =filter_input(INPUT_POST , "EMAIL",FILTER_SANITIZE_EMAIL);
+//     echo "welcome {$username}";
+//     echo "<br> your age is {$AGE}";
+//     echo "<br> your email is {$EMAIL}";
+
+// }
+if(isset($_POST["login"])){
+    $age = filter_input(INPUT_POST , "AGE",FILTER_VALIDATE_INT);
+    if(empty($age)){
+        echo " age is required";
+
+    }else{ 
+        echo "welcome age {$age}";
+    }
+}
 
 
 ?>
