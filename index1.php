@@ -13,7 +13,7 @@
 
 
     </form> -->
-    <form action ="index1.php" method="post" >
+    <!-- <form action ="index1.php" method="post" >
         username : <br>
         <input type="text" name="username"><br>
         AGE : <br>
@@ -23,7 +23,8 @@
         <input type="submit" name="login" value="login">
         
 
-    </form>
+    </form> -->
+
 
     
 </body>
@@ -90,15 +91,16 @@
 //     echo "<br> your email is {$EMAIL}";
 
 // }
-if(isset($_POST["login"])){
-    $age = filter_input(INPUT_POST , "AGE",FILTER_VALIDATE_INT);
-    if(empty($age)){
-        echo " age is required";
+// if(isset($_POST["login"])){
+//     $age = filter_input(INPUT_POST , "AGE",FILTER_VALIDATE_INT);
+//     if(empty($age)){
+//         echo " age is required";
 
-    }else{ 
-        echo "welcome age {$age}";
-    }
-}
+//     }else{ 
+//         echo "welcome age {$age}";
+//     }
+// }
+
 
 
 ?>
